@@ -46,6 +46,9 @@ defmodule Kayrock.MixProject do
       {:varint, "~> 1.2"},
       {:connection, "~> 1.1"},
 
+      # Compression
+      {:nimble_lz4, "~> 0.1.0"},
+
       # Dev/Test
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev], runtime: false},
